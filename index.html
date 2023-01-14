@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <title>Simple Kanban Board</title>
+  </head>
+  <body>
+    <div class="board">
+      <div class="cards">
+        <div class="card">
+          <h3>Todo</h3>
+          <div class="dropzone">
+            <div class="item" draggable="true">
+              <span class="status red"></span>
+              <p>Primeira Tarefa</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>In progress</h3>
+          <div class="dropzone">
+            <div class="item" draggable="true">
+              <span class="status green"></span>
+              <p>Terminar Tarefa</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <h3>Done</h3>
+          <div class="dropzone">
+            <div class="item" draggable="true">
+              <span class="status blue"></span>
+              <p>Tarefa Terminada</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
